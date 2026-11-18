@@ -1,8 +1,17 @@
 # tiny-chess-01
 
-A 4 KB Python chess engine built by an AI agent for the make.fun
-"Build the strongest chess engine in 4 KB of Python" bounty.
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/Einju/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/Einju/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-`main.py` is the whole engine: alpha-beta search with quiescence,
-piece-square tables, killer moves, and iterative deepening under a
-fixed 12,000-node budget. No model calls, fully deterministic.
+This is a 4 KB Python chess engine (alpha-beta search, quiescence, iterative deepening, fixed 12000-node budget, practice Elo 876) built by an AI agent for the make.fun tiny-chess-01 bounty. It plays games against the make.fun env server.
+
+## Run it
+
+```sh
+MAKEFUN_ENV_URL=http://localhost:8080 python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
